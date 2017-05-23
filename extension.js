@@ -38,6 +38,11 @@
           }
         };
 
+        // Load the chat package again to account for any changes
+        bot.loadChat();
+
+      }
+
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
@@ -67,7 +72,7 @@
       voteSkipLimit: 10,
       historySkip: false,
       timeGuard: true,
-      maximumSongLength: 5,
+      maximumSongLength: 10,
       autodisable: false,
       commandCooldown: 30,
       usercommandsEnabled: true,
@@ -86,18 +91,18 @@
       motdEnabled: false,
       motdInterval: 5,
       motd: "Temporary Message of the Day",
-      filterChat: false,
+      filterChat: true,
       etaRestriction: false,
       welcome: true,
       opLink: null,
-      rulesLink: "http://www.soltaosgrave.com/p/plugdj.html",
+      rulesLink: null,
       themeLink: null,
       fbLink: null,
       youtubeLink: null,
       website: null,
-      intervalMessages: ["Leia as regras antes de falar no chat e entrar na fila de DJs, Acesse: http://www.soltaosgrave.com/p/plugdj.html"],
+      intervalMessages: [],
       messageInterval: 5,
-      songstats: false,
+      songstats: true,
       commandLiteral: "!",
       blacklists: {
         NSFW: "https://rawgit.com/LokJhow/custom/master/blacklists/NSFWlist.json",
