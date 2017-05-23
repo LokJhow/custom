@@ -37,27 +37,6 @@
             }
           }
         };
-                // Example code for a bot command:
-        bot.commands.joinCommand = {
-                command: 'entrar',
-                rank: 'user',
-                type: 'exact',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        if (basicBot.room.roulette.rouletteStatus && basicBot.room.roulette.participants.indexOf(chat.uid) < 0) {
-                            basicBot.room.roulette.participants.push(chat.uid);
-                            API.sendChat(subChat(basicBot.chat.roulettejoin, {name: chat.un}));
-                        }
-                    }
-                }
-            },
-
-        // Load the chat package again to account for any changes
-        bot.loadChat();
-
-      }
 
     //Change the bots default settings and make sure they are loaded on launch
 
