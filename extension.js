@@ -47,13 +47,13 @@
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
       botName: "SOGBot",
-      language: "english",
+      language: "portuguese",
       chatLink: "https://rawgit.com/LokJhow/custom/master/lang/pt-BR.json",
       scriptLink: "https://rawgit.com/LokJhow/custom/master/extension.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 50, // 1-200
       startupVolume: 100, // 0-100
-      startupEmoji: false, // true or false
+      startupEmoji: true, // true or false
       autowoot: true,
       autoskip: false,
       smartSkip: true,
