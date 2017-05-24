@@ -100,7 +100,7 @@
       fbLink: null,
       youtubeLink: null,
       website: null,
-      intervalMessages: ["Antes de começar a interagir no chat e entrar na file de DJs leia as regras!!!, acesse: http://www.soltaosgrave.com/p/plugdj.html"],
+      intervalMessages: ["Antes de começar a interagir no chat e entrar na fila de DJs leia as regras!!!, acesse: http://www.soltaosgrave.com/p/plugdj.html"],
       messageInterval: 5,
       songstats: false,
       commandLiteral: "!",
