@@ -51,14 +51,14 @@
       chatLink: "https://rawgit.com/LokJhow/custom/master/lang/en.json",
       scriptLink: "https://rawgit.com/LokJhow/custom/master/extension.js",
       roomLock: false, // Requires an extension to re-load the script
-      startupCap: 1, // 1-200
+      startupCap: 200, // 1-200
       startupVolume: 100, // 0-100
       startupEmoji: true, // true or false
       autowoot: true,
       autoskip: false,
       smartSkip: true,
       cmdDeletion: true,
-      maximumAfk: 120,
+      maximumAfk: 320,
       afkRemoval: true,
       maximumDc: 60,
       bouncerPlus: true,
@@ -88,20 +88,20 @@
       ],
       afkpositionCheck: 15,
       afkRankCheck: "ambassador",
-      motdEnabled: false,
+      motdEnabled: true,
       motdInterval: 5,
-      motd: "Temporary Message of the Day",
+      motd: "Antes de entrar na fila recomendo que leia as regras: https://www.soltaosgrave.com/plug-dj",
       filterChat: false,
       etaRestriction: false,
       welcome: true,
       opLink: null,
-      rulesLink: ["http://www.soltaosgrave.com/p/plugdj.html"],
+      rulesLink: ["https://www.soltaosgrave.com/plug-dj"],
       themeLink: null,
       fbLink: null,
-      youtubeLink: null,
+      youtubeLink: ["https://www.youtube.com/c/Soltaosgrave"],
       website: null,
       intervalMessages: ["Antes de começar a interagir no chat e entrar na fila de DJs leia as regras!!!, acesse: http://www.soltaosgrave.com/p/plugdj.html"],
-      messageInterval: 5,
+      messageInterval: 13,
       songstats: false,
       commandLiteral: "!",
       blacklists: {
